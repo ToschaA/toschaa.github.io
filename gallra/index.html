@@ -1,0 +1,89 @@
+<!doctype html>
+<!-- Gallra landing page — copy this folder's contents to toschaa.github.io/gallra/
+     BEFORE PUBLISHING, replace:
+       1. APP_STORE_URL (once the app is live)
+       2. The price-increase date marked with ⚠ below (two places: hero + footer)  -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallra — Swipe photo cleanup. Pay once. Nothing leaves your phone.</title>
+<meta name="description" content="Swipe through your camera roll month by month. Keep or delete. One-time purchase, no ads, no account — the app contains no networking code at all.">
+<style>
+  :root {
+    --green: #21A05C; --green-dark: #0B331F; --ink: #14231b; --muted: #5b6b62;
+    --bg: #f6f9f7; --card: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+         color: var(--ink); background: var(--bg); }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 24px 64px; }
+  .hero { text-align: center; padding: 24px 0 8px; }
+  .hero h1 { font-size: 44px; letter-spacing: -1px; }
+  .tagline { font-size: 22px; font-weight: 600; margin-top: 8px; }
+  .sub { color: var(--muted); margin-top: 10px; }
+  .claims { list-style: none; margin: 28px auto 0; max-width: 420px; text-align: left; }
+  .claims li { padding: 10px 0 10px 36px; position: relative; font-weight: 500; }
+  .claims li::before { content: "✓"; position: absolute; left: 8px; color: var(--green); font-weight: 800; }
+  .cta { display: inline-block; margin-top: 28px; background: #111; color: #fff; text-decoration: none;
+         padding: 14px 28px; border-radius: 14px; font-weight: 600; }
+  .price { margin-top: 14px; font-size: 15px; color: var(--muted); }
+  .price strong { color: var(--ink); }
+  section { margin-top: 56px; }
+  h2 { font-size: 24px; margin-bottom: 12px; }
+  .card { background: var(--card); border-radius: 16px; padding: 20px 22px; margin-top: 14px;
+          box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+  .card h3 { font-size: 17px; margin-bottom: 4px; }
+  .card p { color: var(--muted); font-size: 15px; }
+  footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid #e3e9e5;
+           font-size: 14px; color: var(--muted); text-align: center; }
+  footer a { color: var(--green); }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <h1>Gallra</h1>
+    <p class="tagline">Pay once. Nothing leaves your phone.</p>
+    <p class="sub">Swipe through your camera roll month by month.<br>Keep the good ones, clear the rest.</p>
+    <ul class="claims">
+      <li>One-time purchase — no subscription, ever</li>
+      <li>No ads. Not now, not later</li>
+      <li>100% offline — the app contains no networking code at all</li>
+    </ul>
+    <!-- ⚠ On launch day: replace this span with
+         <a class="cta" href="https://apps.apple.com/app/idXXXXXXXXX">Download on the App&nbsp;Store</a> -->
+    <span class="cta" style="opacity:.75">Coming soon to the App&nbsp;Store</span>
+    <p class="price">Free for your first 300 decisions.<br>
+      Unlock unlimited: <strong>$2.99 / 35 kr</strong> launch price —
+      <!-- ⚠ swap to the concrete date on launch day -->
+      rises to $4.99 / 59 kr <strong>30 days after release</strong>.</p>
+  </div>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="card"><h3>1. Pick a month — or hit Random</h3>
+      <p>Your library is split into small, finishable chunks with visible progress. No “here are 40,000 photos.”</p></div>
+    <div class="card"><h3>2. Swipe</h3>
+      <p>Left to delete, right to keep, up to file into an album, down to skip for later. Tap any photo to inspect it fullscreen.</p></div>
+    <div class="card"><h3>3. Review, then one confirmation</h3>
+      <p>Nothing is deleted while you swipe. You see everything you marked, rescue anything with a tap, and confirm once. Deleted photos stay in iOS’s Recently Deleted for 30 days.</p></div>
+  </section>
+
+  <section>
+    <h2>Actually private</h2>
+    <div class="card">
+      <p>Gallra’s App Store privacy label reads <strong>“Data Not Collected”</strong> — because there is nothing to collect it with. No analytics, no account, no server, no network requests. The only network traffic your purchase ever touches is Apple’s own App&nbsp;Store.
+      Read the whole <a href="privacy.html">privacy policy</a> — it fits on one screen.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Questions or problems: <a href="mailto:toschaalfred+gallra@gmail.com">toschaalfred+gallra@gmail.com</a></p>
+    <p><a href="privacy.html">Privacy policy</a></p>
+    <!-- ⚠ swap to the concrete date on launch day -->
+    <p>Launch price valid for the first 30 days after release. © 2026 Alfred Toscha.</p>
+  </footer>
+</main>
+</body>
+</html>
